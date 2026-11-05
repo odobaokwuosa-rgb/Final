@@ -1,0 +1,7 @@
+# RDS files in output/ and data/
+output/*.rds
+data/*.rds
+
+#files in the project directory
+*.html
+*.Rproj

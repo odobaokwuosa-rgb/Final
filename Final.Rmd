@@ -1,0 +1,37 @@
+---
+title: "Final Project 2"
+author: "Okwuosa, Odoba"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Introduction
+## Dataset description
+This dataset includes ~24 years of data (2000-2024) for over 200 countries including different health indicators.This dataset's rows represent each country and year combination collected and has regional classifications that will be used in the grouping of data.
+
+## Analysis objectives
+My final project will be comparing regional trends in mortality and overall well-being using health indicators over the 24 year span of the dataset.
+
+
+# Descriptive Data
+## Table 1
+```{r, table, echo=FALSE}
+
+table_one <- readRDS(here::here("output", "table_one.rds"))
+table_one
+
+```
+Table 1 shows the distribution of Income Level by Region in the year 2000. The levels are Lower Income, Low Income, Upper Middle Income, High Income, and Unclassified. 
+
+## Figure 1
+Figuere 1 shows the average life expectancy in years by region in the year 2000. The average ranges from 54 to 78 years.
+```{r, figure 1, echo=FALSE}
+
+figure1 <- readRDS(here::here("output", "figure1.rds"))
+
+figure1
+
+```
+
+
+
